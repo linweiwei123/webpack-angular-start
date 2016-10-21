@@ -1,0 +1,27 @@
+{
+  "name": "angular-webpack-seed",
+  "version": "1.0.0",
+  "description": "angular webpack seed",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors -d",
+    "watch": "webpack-dev-server  --progress --colors --watch --hot --display-error-details",
+    "dist": "webpack --progress --colors -p"
+  },
+  "author": "linweiwei",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^3.1.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "to-string": "^0.2.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
